@@ -8,6 +8,11 @@
         "mail",
         "archive"
     ],
+    "autoload-dev": {
+        "psr-4": {
+            "Frosh\\MailArchive\\Tests\\": "tests/"
+        }
+    },
     "autoload": {
         "psr-4": {
             "Frosh\\MailArchive\\": "src/"
